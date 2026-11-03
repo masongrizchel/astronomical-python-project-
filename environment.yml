@@ -1,0 +1,16 @@
+name: astropython
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python<=3.11
+  - pip
+  - astropy
+  - matplotlib
+  - numpy
+  - pandas
+  - photutils
+  - sep
+  - scipy
+  - pip:
+    - tqdm
